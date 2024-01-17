@@ -1,0 +1,54 @@
+*******************************************
+Commands on Windows (cmd)
+*******************************************
+
+Compiling and running the GUI from your _code_ directory:
+
+	javac -cp .;483libs.jar *.java
+	java -cp .;483libs.jar SimGUI
+	java -cp .;483libs.jar SimGUI [text]
+	java -cp .;483libs.jar SimGUI [text] [ms-delay]
+
+	ex: 
+	java -cp .;483libs.jar SimGUI "PETER PIPER" 200
+
+
+Compiling and running the Main Method Tester from your _code_ directory:
+
+	javac -cp .;483libs.jar *.java
+	java -cp .;483libs.jar MainMethodExampleTest
+
+
+Compiling and running a JUnit test from your _project_ directory:
+
+	javac -cp .;codeGoesHere/483libs.jar;junit-4.11.jar;codeGoesHere *.java
+	java -cp .;codeGoesHere/483libs.jar;junit-4.11.jar;codeGoesHere JUnitExample
+
+
+*******************************************
+Commands on Mac/Linux (terminal)
+*******************************************
+
+Compiling and running the GUI from your _code_ directory:
+
+	javac -cp .:483libs.jar *.java
+	java -cp .:483libs.jar SimGUI
+	java -cp .:483libs.jar SimGUI [text]
+	java -cp .:483libs.jar SimGUI [text] [ms-delay]
+
+	ex: 
+	java -cp .:483libs.jar SimGUI "PETER PIPER" 200
+
+
+Compiling and running the Main Method Tester from your _code_ directory:
+
+	javac -cp .:483libs.jar *.java
+	java -cp .:483libs.jar MainMethodExampleTest
+
+
+Compiling and running a JUnit test from your _project_ directory:
+
+	javac -cp .:codeGoesHere/483libs.jar:junit-4.11.jar:codeGoesHere *.java
+	java -cp .:codeGoesHere/483libs.jar:junit-4.11.jar:codeGoesHere JUnitExample
+
+
