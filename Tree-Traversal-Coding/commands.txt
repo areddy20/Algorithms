@@ -1,0 +1,33 @@
+
+*******************************************
+Commands on Windows (cmd)
+*******************************************
+
+Compiling and running the GUI from your _code_ directory:
+
+	javac -cp .;483libs.jar *.java
+	java -cp .;483libs.jar SimGUI
+	java -cp .;483libs.jar SimGUI [number-of-cities]
+	java -cp .;483libs.jar SimGUI [number-of-cities] [rng-seed] 
+	java -cp .;483libs.jar SimGUI [number-of-cities] [rng-seed] [ms-delay]
+
+	ex: 
+	java -cp .;483libs.jar SimGUI 6 1034 1
+
+
+*******************************************
+Commands on Mac/Linux (terminal)
+*******************************************
+
+Compiling and running the GUI from your _code_ directory:
+
+	javac -cp .:483libs.jar *.java
+	java -cp .:483libs.jar SimGUI
+	java -cp .:483libs.jar SimGUI [number-of-cities]
+	java -cp .:483libs.jar SimGUI [number-of-cities] [rng-seed] 
+	java -cp .:483libs.jar SimGUI [number-of-cities] [rng-seed] [ms-delay]
+	
+	ex: 
+	java -cp .:483libs.jar SimGUI 6 1034 1
+
+
